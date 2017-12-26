@@ -1,0 +1,4 @@
+baseURL = "http://bstewart.xyz/"
+languageCode = "en-us"
+title = "Brandon Stewart's Blog"
+theme = "temple"
