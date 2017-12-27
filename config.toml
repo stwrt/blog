@@ -1,4 +1,23 @@
-baseURL = "http://bstewart.xyz/"
-languageCode = "en-us"
+baseURL = "https://brandonstewart.net/"
 title = "Brandon Stewart's Blog"
 theme = "temple"
+
+
+[params]
+  # Enables syntax highlighting
+  highlight = true 
+  # Supports highlighting for languages not included in the original pack
+  # See https://highlightjs.org/download/
+  hjslangs = ["go", "elixir"]
+  # Enables the topmenu, which pulls from categories
+  topmenu = "categories"
+
+# Builds a list page for each category given
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[author]
+  name = "Brandon Stewart"
+  github = "brstew"
+  email = "bts@purdue.edu"
