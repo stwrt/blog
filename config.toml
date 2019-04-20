@@ -8,7 +8,7 @@ theme = "temple"
   highlight = true 
   # Supports highlighting for languages not included in the original pack
   # See https://highlightjs.org/download/
-  hjslangs = ["go", "elixir"]
+  hjslangs = ["go", "elixir", "c++", "rust"]
   # Enables the topmenu, which pulls from categories
   topmenu = "categories"
 
@@ -20,4 +20,4 @@ theme = "temple"
 [author]
   name = "Brandon Stewart"
   github = "stwrt"
-  email = "bts@purdue.edu"
+  email = "stewartb2@gmail.com"
