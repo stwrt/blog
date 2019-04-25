@@ -1,7 +1,6 @@
 baseURL = "https://brandonstewart.net/"
 title = "Brandon Stewart's Blog"
 theme = "temple_updated"
-googleAnalytics = "UA-74293424-2"
 
 [params]
   # Enables syntax highlighting
@@ -21,3 +20,4 @@ googleAnalytics = "UA-74293424-2"
   name = "Brandon Stewart"
   github = "stwrt"
   email = "stewartb2@gmail.com"
+  gaid = "UA-74293424-2"
