@@ -8,7 +8,7 @@ theme = "temple"
   highlight = true 
   # Supports highlighting for languages not included in the original pack
   # See https://highlightjs.org/download/
-  hjslangs = ["go", "elixir", "c++", "rust"]
+  hjslangs = ["go", "bash"]
   # Enables the topmenu, which pulls from categories
   topmenu = "categories"
 
