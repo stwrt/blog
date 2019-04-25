@@ -5,7 +5,7 @@ type: posts
 draft: false
 ---
 
-I recently purchased a copy of _The Go Programming Language_ by Donovan and Kerighan. The book's examples are extremely practical and often involve reimplementing some of the classic Unix tools that I love and use every day. 
+I recently purchased a copy of _The Go Programming Language_ by Donovan and Kerighan. The book's examples are extremely practical and often involve reimplementing some of the classic Unix tools that I love and use every day. I was suprised at how simple some of these commands were to implement.
 
 Echo for example is just a simple one liner!
 ```
