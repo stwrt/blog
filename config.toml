@@ -1,6 +1,6 @@
 baseURL = "https://brandonstewart.net/"
 title = "Brandon Stewart's Blog"
-theme = "temple"
+theme = "temple_updated"
 
 
 [params]
