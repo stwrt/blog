@@ -84,5 +84,4 @@ func main() {
     }
 }
 ```
-Even a relatively simple command like `yes` can have some very neat tricks to drastically increase performance.
-
+Even a relatively simple command like `yes` can have some very neat tricks to drastically increase performance. You can find the implementation on Github [here](https://github.com/stwrt/go-coreutils/blob/master/yes/yes.go).
