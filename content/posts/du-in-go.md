@@ -21,3 +21,38 @@ bts@bts:~/code/go-coreutils$ du . --exclude=.git
 ```
 
 This is an example of the source code directory for all the coreutils, with git excluded. (Git makes quite a mess of the `du` output).
+
+My first implementation was a sequential recursive approach. I check each of the directory entries and if it is a folder I recursively enter it. If it is not a folder, I use a map to store the number of bytes and number of files for each folder.
+
+```
+func walkDir(dir string) {
+  for _, entry := range dirents(dir) {
+    if entry.IsDir() {
+        subdir := filepath.Join(dir, entry.Name())
+		walkDir(subdir)
+	} else {
+        if entry != nil {
+		  fileSizes[dir] = dirInfo{fileSizes[dir].fileSizes + entry.Size(), fileSizes[dir].numFiles + 1}
+	    }
+	  }
+    }
+}
+```
+
+Once I search trough all the folders I then print out the results.
+
+```
+var nfiles, nbytes int64
+for dir, info := range fileSizes {
+	printDiskUsageDir(dir, info.numFiles, info.fileSizes)
+
+	nbytes += info.fileSizes
+    nfiles += info.numFiles
+}
+
+printDiskUsageTotal(nfiles, nbytes)
+```
+
+I deviate slightly from the standard `du` by printing out the total number of bytes and files instead of just for each directory.
+
+In the next post I will implement a parallel version of `du`. You can find the code [here](https://github.com/stwrt/go-coreutils/blob/master/du/du.go).
