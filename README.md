@@ -1,12 +1,14 @@
 # Brandon's Blog
 
-## How to Build
+This blog is hosted at [brandonstewart.net](https://brandonstewart.net).
+
+## How to build
 ```
 hugo
 ```
 This will generate the site in the docs directory.
 
-## How to launch server
+## How to launch testing server
 ```
 hugo server -D
 ```
