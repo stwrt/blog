@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Brandon Stewart&#39;s Blog</title>
+    <link>https://brandonstewart.net/posts/</link>
+    <description>Recent content in Posts on Brandon Stewart&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>stewartb2@gmail.com (Brandon Stewart)</managingEditor>
+    <webMaster>stewartb2@gmail.com (Brandon Stewart)</webMaster>
+    <lastBuildDate>Fri, 03 May 2019 23:41:46 -0700</lastBuildDate>
+    
+	<atom:link href="https://brandonstewart.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Du in Go</title>
+      <link>https://brandonstewart.net/posts/du-in-go/</link>
+      <pubDate>Fri, 03 May 2019 23:41:46 -0700</pubDate>
+      <author>stewartb2@gmail.com (Brandon Stewart)</author>
+      <guid>https://brandonstewart.net/posts/du-in-go/</guid>
+      <description>While reading Chapter 8 in The Go Programming Language, they had a section on implementing du in Go. Since I am currently working my way through implementing the wide range of coreutils, I decided to tackle this as my next challenge.
+du is a simple tool at heart. It will recursively traverse down the directories and give you their size.
+bts@bts:~/code/go-coreutils$ du . --exclude=.git 4940 ./dl 976 ./yes 4 ./.vscode 2124 .</description>
+    </item>
+    
+    <item>
+      <title>Yes in Go</title>
+      <link>https://brandonstewart.net/posts/yes-in-go/</link>
+      <pubDate>Thu, 25 Apr 2019 19:49:43 -0700</pubDate>
+      <author>stewartb2@gmail.com (Brandon Stewart)</author>
+      <guid>https://brandonstewart.net/posts/yes-in-go/</guid>
+      <description>Yes is the second coreutil program I decided to tackle. Yes works by endlessly filling your terminal with y characters. If you decide to pass it a string it will fill your terminal with those characters instead.
+$ yes y y y y y  If I want to print out no instead of yes I would write.
+$ yes n n n n n n  The basic implementation of yes is quite similar to echo, which I showed in my last blog post.</description>
+    </item>
+    
+    <item>
+      <title>Starting With Go</title>
+      <link>https://brandonstewart.net/posts/starting-with-go/</link>
+      <pubDate>Wed, 24 Apr 2019 21:24:56 -0700</pubDate>
+      <author>stewartb2@gmail.com (Brandon Stewart)</author>
+      <guid>https://brandonstewart.net/posts/starting-with-go/</guid>
+      <description>I recently purchased a copy of The Go Programming Language by Donovan and Kerighan. The book&amp;rsquo;s examples are extremely practical and often involve reimplementing some of the classic Unix tools that I love and use every day. I was suprised at how simple some of these commands were to implement.
+Echo for example is just a simple one liner!
+func main() { fmt.Println(strings.Join(os.Args[1:], &amp;quot; &amp;quot;)) }  To help really understands Go, I plan on reimplementing many of the other classic Unix commands, and documenting any interesting challenges I run into.</description>
+    </item>
+    
+  </channel>
+</rss>

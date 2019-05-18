@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://brandonstewart.net/</loc>
+    <lastmod>2019-05-03T23:41:46-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brandonstewart.net/posts/du-in-go/</loc>
+    <lastmod>2019-05-03T23:41:46-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brandonstewart.net/posts/</loc>
+    <lastmod>2019-05-03T23:41:46-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brandonstewart.net/posts/yes-in-go/</loc>
+    <lastmod>2019-04-25T19:49:43-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brandonstewart.net/posts/starting-with-go/</loc>
+    <lastmod>2019-04-24T21:24:56-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://brandonstewart.net/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brandonstewart.net/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
