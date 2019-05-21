@@ -22,7 +22,7 @@ bts@bts:~/code/go-coreutils$ du . --exclude=.git
 
 This is an example of the source code directory for all the coreutils, with git excluded. (Git makes quite a mess of the `du` output).
 
-My first implementation was a sequential recursive approach. I check each of the directory entries and if it is a folder I recursively enter it. If it is not a folder, I use a map to store the number of bytes and number of files for each folder.
+My first implementation was a simple, recursive approach. I check each of the directory entries, and if it is a folder I enter it. If it is not a folder, I use a map to store the number of bytes and number of files for each folder.
 
 ```
 func walkDir(dir string) {
@@ -39,7 +39,7 @@ func walkDir(dir string) {
 }
 ```
 
-Once I search trough all the folders I then print out the results.
+Once I search through all the folders I then print out the results.
 
 ```
 var nfiles, nbytes int64
