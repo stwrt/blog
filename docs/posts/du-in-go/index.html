@@ -362,7 +362,7 @@ code, kbd, pre, samp {
   
   
 
-  <meta name="generator" content="Hugo 0.55.5" />
+  <meta name="generator" content="Hugo 0.55.6" />
 
   
   
@@ -437,7 +437,7 @@ code, kbd, pre, samp {
 
 <p>This is an example of the source code directory for all the coreutils, with git excluded. (Git makes quite a mess of the <code>du</code> output).</p>
 
-<p>My first implementation was a sequential recursive approach. I check each of the directory entries and if it is a folder I recursively enter it. If it is not a folder, I use a map to store the number of bytes and number of files for each folder.</p>
+<p>My first implementation was a simple, recursive approach. I check each of the directory entries, and if it is a folder I enter it. If it is not a folder, I use a map to store the number of bytes and number of files for each folder.</p>
 
 <pre><code>func walkDir(dir string) {
   for _, entry := range dirents(dir) {
@@ -453,7 +453,7 @@ code, kbd, pre, samp {
 }
 </code></pre>
 
-<p>Once I search trough all the folders I then print out the results.</p>
+<p>Once I search through all the folders I then print out the results.</p>
 
 <pre><code>var nfiles, nbytes int64
 for dir, info := range fileSizes {
