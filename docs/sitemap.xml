@@ -3,18 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://brandonstewart.net/</loc>
-    <lastmod>2019-05-20T18:55:59-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://brandonstewart.net/posts/</loc>
-    <lastmod>2019-05-20T18:55:59-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://brandonstewart.net/posts/transitioning-to-github-pages/</loc>
     <lastmod>2019-05-20T18:55:59-07:00</lastmod>
   </url>
@@ -35,7 +23,19 @@
   </url>
   
   <url>
+    <loc>https://brandonstewart.net/</loc>
+    <lastmod>2019-05-20T18:55:59-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://brandonstewart.net/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://brandonstewart.net/posts/</loc>
+    <lastmod>2019-05-20T18:55:59-07:00</lastmod>
     <priority>0</priority>
   </url>
   
