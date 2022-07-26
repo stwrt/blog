@@ -1,0 +1,57 @@
+baseURL: "https://brandonstewart.net/"
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Brandon Stewart
+  # author: ["Me", "You"] # multiple authors
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: true
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Brandon Stewart
+    subtitle: "Working on WebKit at Apple"
+    imageUrl: "https://avatars.githubusercontent.com/u/1958441?v=4"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: Brandon Stewart
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Brandon Stewart"
+    Content: Working on WebKit at Apple
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/brandon_stwrt"
+    - name: github
+      url: "https://github.com/stwrt"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/brandon-t-stewart/"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
