@@ -52,6 +52,8 @@ params:
       url: "https://github.com/stwrt"
     - name: linkedin
       url: "https://www.linkedin.com/in/brandon-t-stewart/"
+    - name: email
+      url: "mailto:stewartb2@gmail.com"
 
   cover:
     hidden: true # hide everywhere but not in structured data
