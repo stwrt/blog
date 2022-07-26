@@ -35,9 +35,9 @@ params:
     enabled: true # needs to be explicitly set
     title: Brandon Stewart
     subtitle: "Working on WebKit at Apple"
-    imageUrl: "https://avatars.githubusercontent.com/u/1958441?v=4"
-    imageWidth: 120
-    imageHeight: 120
+    imageUrl: "/me.jpg"
+    imageWidth: 180
+    imageHeight: 180
     imageTitle: Brandon Stewart
 
   # home-info mode
