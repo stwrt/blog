@@ -7,6 +7,8 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+publishDir:                 "docs"
+
 minify:
   disableXML: true
   minifyOutput: true
